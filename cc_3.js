@@ -8,3 +8,7 @@ let customers = [
 // Step 3: Add and remove Data
 customers.push({ name: "Frangie Arocho", email: "frangie.arocho@gmail.com", purchases: ["Tablet"] });
 customers.shift(); // Remove the first customer (John Doe)
+
+// Step 4: Update Customer Info
+customers[0].email = "smithjane4@gmail.com"; // Update Jane Smith's email
+customers[1].purchases.push("Smartphone"); // Add a new purchase for Rebecca Johnson
