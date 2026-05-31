@@ -12,3 +12,8 @@ customers.shift(); // Remove the first customer (John Doe)
 // Step 4: Update Customer Info
 customers[0].email = "smithjane4@gmail.com"; // Update Jane Smith's email
 customers[1].purchases.push("Smartphone"); // Add a new purchase for Rebecca Johnson
+
+// Step 5: Display Customer Info
+customers.forEach(customer => {
+    console.log(`Name: ${customer.name}, Email: ${customer.email}, Purchases: ${customer.purchases.length}`);
+});
